@@ -87,10 +87,11 @@ h1 .img_title {
 
 .explain{
     text-align: center;
-    line-height: 1.7;
-}.explain strong {
+    line-height: 1.7;;
+}
+.hours {
     font-family: 'GmarketSansBold';
-    font-size: 18px;
+    font-size: 25px;
 }
 
 footer {
@@ -107,17 +108,43 @@ input {
     border-radius: 7px;
     border: #5b2386;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
 }
 button{
     background-color: #FCEE21;
     width: 360px;
-    height: 46px;
+    height: 50px;
     border-radius: 45px;
-    font-size: 16px;
+    font-size: 18px;
     color: #5B2386;
     font-family: "Gmarket Sans";
     font-weight: 1000;
     margin-top: 60px;
+}
+
+.cli{
+    position: absolute;
+    transform: translate(0,60px);
+}
+.font_size{
+    font-size: 50px;
+    padding: 10px;
+}
+.span_class_footter{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.weniv_logo{
+    margin-top: 50px;
+}
+.last_logo{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

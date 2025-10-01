@@ -11,7 +11,7 @@
   <!--  #5B2386 -->
   <header>
     <h1>
-      <img class="img.clock" src="img/clock.png" alt="배경 시계 이미지">
+      <img src="img/clock.png" alt="배경 시계 이미지">
       <img class="img_title" src="img/title.png" alt="1만 시간의 법칙 이미지">
       <span class ="a11y-hidden">1만 시간의 법칙</span>
     </h1>
@@ -22,23 +22,26 @@
       <h2 class="a11y-hidden">1만 시간의 법칙 설명</h2>
       <img class="quotes" src="img/quotes.png" alt="배경 따옴표 이미지">
       <p class="explain">
-          <strong> 1만시간의 법칙 </strong>은<br> 
+          <strong class="hours">1만시간의 법칙</strong>
+          은<br> 
           어떤 분야의 전문가가 되기 위해서는<br> 최소한 1만 시간의 훈련이 필요하다는 법칙.
       </p>
     </section>
   </main>
-  <div class="container">
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-  </div>
   <footer>
-    <span>나는 <input type="" placeholder="예)프로그래밍" > 전문가가 될 것이다. </span><br>
-    <span>그래서 앞으로 매일 하루에 <input type="text"  placeholder="예)5시간"> 시간씩 훈련할 것이다.</span>
-    <span><button> 나는 며칠 동안 훈련을 해야 1만 시간이 될까
-      </button>
-      <img src="img/click.png" alt="">
+    <span>나는 <input class="inputfirst" id="firstinput" type="" placeholder="예)프로그래밍">전문가가 될 것이다. </span><br>
+    <span>그래서 앞으로 매일 하루에 <input type="text"  id="secondinput" placeholder="예)5시간"> 시간씩 훈련할 것이다.</span>
+    <span><button id="start-button"> 나는 며칠 동안 훈련을 해야 1만 시간이 될까</button>
+      <img class="cli" src="img/click.png" alt="">
+    </span> 
+    <span class="span_class_footter ">
+      <div>당신은 <span class="font_size" id="firstmessage"></span> 전문가가 되기 위해서</div><br>
+      <div>대략<span class="font_size" id = "secondmessage"></span> 일 이상 훈련하셔야 합니다</div>
     </span>
+    <img class="weniv_logo" src="/img//logo.png" alt="">
+    <div class="last_logo">※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다<div class="br"></div>
+수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.</div>
   </footer>
 </body>
+<script src="/js/10000hours.js"></script>
 </html>

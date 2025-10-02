@@ -30,18 +30,25 @@
   </main>
   <footer>
     <span>나는 <input class="inputfirst" id="firstinput" type="" placeholder="예)프로그래밍">전문가가 될 것이다. </span><br>
-    <span>그래서 앞으로 매일 하루에 <input type="text"  id="secondinput" placeholder="예)5시간"> 시간씩 훈련할 것이다.</span>
+    <span>그래서 앞으로 매일 하루에 <input type="number"  id="secondinput" placeholder="예)5시간"> 시간씩 훈련할 것이다.</span>
     <span><button id="start-button"> 나는 며칠 동안 훈련을 해야 1만 시간이 될까</button>
       <img class="cli" src="img/click.png" alt="">
     </span> 
-    <span class="span_class_footter ">
-      <div>당신은 <span class="font_size" id="firstmessage"></span> 전문가가 되기 위해서</div><br>
-      <div>대략<span class="font_size" id = "secondmessage"></span> 일 이상 훈련하셔야 합니다</div>
+    <span class="span_class_footter">
+      <img class="a11y-hidden" id="timelogo" src="/img/loading.png" alt="" srcset="">
+      <div class="a11y-hidden" id="text1">
+        <div  >당신은 <span class="font_size  " id="firstmessage"></span> 전문가가 되기 위해서</div><br>
+        <div  >대략<span class="font_size" id = "secondmessage"></span> 일 이상 훈련하셔야 합니다</div>
+      </div>
     </span>
     <img class="weniv_logo" src="/img//logo.png" alt="">
     <div class="last_logo">※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다<div class="br"></div>
 수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.</div>
   </footer>
+  <div class="twobutton a11y-hidden" id="twobutton">
+    <button>훈련하러가기</button>
+    <button>공유하기</button>
+  </div>
 </body>
 <script src="/js/10000hours.js"></script>
 </html>

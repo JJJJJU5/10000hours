@@ -1,3 +1,15 @@
+#timelogo {
+    animation: rotate-timelogo 2s linear;
+}
+
+@keyframes rotate-timelogo {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 @font-face {
     font-family: 'OTEnjoystoriesBA';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
@@ -121,8 +133,16 @@ button{
     font-family: "Gmarket Sans";
     font-weight: 1000;
     margin-top: 60px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s cubic-bezier(0.4,0,0.2,1), color 0.5s cubic-bezier(0.4,0,0.2,1), box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
-
+button:hover {
+    background-color: #807112;
+    color: #3a155a;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
 .cli{
     position: absolute;
     transform: translate(0,60px);
@@ -147,4 +167,13 @@ button{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+#text1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.twobutton button:nth-child(2){
+    background-color: white;
 }
